@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кофейня «Весёлые Посиделки»</title>
+  <meta name="description" content="Уютная кофейня «Весёлые Посиделки» — кофе, десерты и хорошее настроение." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <h1 class="logo">☕ Весёлые Посиделки</h1>
+      <nav class="nav">
+        <a href="#menu">Меню</a>
+        <a href="#order">Заказать</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Кофе, который согревает</h2>
+        <p>Заходите посидеть, поболтать и выпить что-нибудь вкусное.</p>
+      </div>
+    </section>
+
+    <section id="menu" class="menu container">
+      <h2>Меню</h2>
+      <div id="menu-list" class="menu__grid" aria-live="polite">Загрузка…</div>
+    </section>
+
+    <section id="order" class="order container">
+      <h2>Оформить заказ</h2>
+      <form id="order-form" novalidate>
+        <input type="text" name="name" placeholder="Ваше имя" required />
+        <input type="tel" name="phone" placeholder="+7 999 123-45-67" required />
+        <textarea name="comment" placeholder="Комментарий" rows="2"></textarea>
+        <div id="cart-summary">Корзина пуста</div>
+        <button type="submit">Оформить</button>
+        <p id="order-status" role="status"></p>
+      </form>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Контакты</h2>
+      <p>г. Москва, ул. Весёлая, 7 · <a href="tel:+79991234567">+7 999 123-45-67</a></p>
+      <p>Ежедневно с 08:00 до 23:00</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Кофейня «Весёлые Посиделки»</div>
+  </footer>
+
+  <script src="/js/app.js" defer></script>
+</body>
+</html>

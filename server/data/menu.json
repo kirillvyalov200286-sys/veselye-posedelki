@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Эспрессо",            "price": 150, "category": "coffee", "description": "Классика, 30 мл" },
+  { "id": 2, "name": "Капучино",            "price": 220, "category": "coffee", "description": "Нежная молочная пенка" },
+  { "id": 3, "name": "Латте «Посиделки»",   "price": 250, "category": "coffee", "description": "С ванилью и корицей" },
+  { "id": 4, "name": "Раф «Весёлый»",       "price": 260, "category": "coffee", "description": "Сливочный, с ирисом" },
+  { "id": 5, "name": "Круассан",            "price": 180, "category": "food",   "description": "Свежая выпечка" },
+  { "id": 6, "name": "Чизкейк",             "price": 280, "category": "food",   "description": "Нью-Йорк, домашний" },
+  { "id": 7, "name": "Какао",               "price": 190, "category": "drinks", "description": "С маршмеллоу" },
+  { "id": 8, "name": "Чай облепиховый",     "price": 200, "category": "drinks", "description": "Согревающий" }
+]
